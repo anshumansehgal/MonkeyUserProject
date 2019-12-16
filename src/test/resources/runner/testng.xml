@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Monkey User Suite">
+  <test name="View Random Comic Test">
+    <classes>
+      <class name="com.monkeyuser.testcases.ViewRandomComic"/>
+      <class name="com.monkeyuser.testcases.ViewLatestComic"/>
+       <class name="com.monkeyuser.testcases.ComicHistory"/>
+       <class name="com.monkeyuser.testcases.ComicsSpecificDates"/>
+       <class name="com.monkeyuser.testcases.AddCartProduct"/>
+       <class name="com.monkeyuser.testcases.StretchGoals"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
